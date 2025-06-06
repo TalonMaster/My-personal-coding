@@ -1,22 +1,27 @@
-.class1{
-    font-size: 31px;
-    color: aquamarine;
+input[type='text']{
+    border: 4px solid red;
 }
-.class2{
-    text-decoration: underline;
+.class1 > p{
+color: red;
 }
-.class3{
-    text-transform: uppercase;
+h2 + p {
+    color: aqua;
 }
-.class4{
-    text-align: center;
+.class2:hover {
+    background-color: red;
 }
-.class5{
-    text-indent: 40px;
+li:nth-child(3) {
+background-color: blueviolet;
 }
-.class6{
-    width: 240px;
-    background-color: crimson;
-    padding: 40px;
-    box-shadow: 20px 30px 43px;
+h3:not(.hihi){
+    background-color: brown;
+}
+.class3::before{
+    content: 🤣;
+}
+.class3::after{
+    content: 🤪;
+}
+.class3::first-letter{
+    font-size: 48px;
 }
