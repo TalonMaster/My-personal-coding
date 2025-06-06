@@ -1,0 +1,22 @@
+.class1{
+    font-size: 31px;
+    color: aquamarine;
+}
+.class2{
+    text-decoration: underline;
+}
+.class3{
+    text-transform: uppercase;
+}
+.class4{
+    text-align: center;
+}
+.class5{
+    text-indent: 40px;
+}
+.class6{
+    width: 240px;
+    background-color: crimson;
+    padding: 40px;
+    box-shadow: 20px 30px 43px;
+}
