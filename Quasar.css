@@ -1,6 +1,25 @@
-.class1 {
-    background-color: aqua;
-    padding: 140px 200px 20px 0px;
-    border: 34px solid blue;
-    margin: 24px 34px 40px;
+.class2{
+    position: fixed;
+    top: 0px;
+    left: 70px;
+}
+
+.class3{
+    position: relative;
+    top: -30px;
+    left: 800px;
+}
+
+.container{
+    position: relative;
+}
+
+.class4{
+    position: absolute;
+}
+
+.class5{
+    position: sticky;
+    top: 30px;
+    left: 60px;
 }
