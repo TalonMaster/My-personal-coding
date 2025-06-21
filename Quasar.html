@@ -1,18 +1,70 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Box</title>
-    <link rel="stylesheet" href="Quasar.css">
+
+    <title>Intro to Bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <style>
+        .cbc {
+
+            background-color: aqua;
+
+            text-align: center;
+
+            border: 2px solid black;
+
+        }
+    </style>
+
 </head>
+
 <body>
-    <h1 class="class1">Heading</h1>
-    <p class="class2">Fixed postition</p>
-    <p class="class3">relative postition</p>
+
     <div class="container">
-    <p class="class4">absolute postition</p>
+
+        <h1 class="bg-success">Grid using bootstrap</h1>
+
+        <div class="row">
+
+            <div class="col cbc">col</div>
+
+            <div class="col cbc">col</div>
+
+            <div class="col cbc">col</div>
+
+        </div>
+
+        <div class="row mt-4">
+
+            <div class="col-4 cbc">col-4</div>
+
+            <div class="col-6 cbc">col-6</div>
+
+            <div class="col-2 cbc">col-2</div>
+
+        </div>
+
+        <div class="row mt-4">
+
+            <div class="col-xs-12 col-md-6 cbc">col-xs-12 col-md-6</div>
+
+        </div>
+
     </div>
-    <p class="class5">Lorem ipsum dolor sit.</p>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
